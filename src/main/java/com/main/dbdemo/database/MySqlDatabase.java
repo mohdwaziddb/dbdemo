@@ -11,6 +11,9 @@ public class MySqlDatabase {
         String user = "root";
         String password = "root";
 
+
+
+
         return DriverManager.getConnection(url, user, password);
     }
 }
